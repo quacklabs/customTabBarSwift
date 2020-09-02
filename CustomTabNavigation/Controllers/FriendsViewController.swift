@@ -1,22 +1,25 @@
 //
-//  CallsViewController.swift
+//  PhotosViewController.swift
 //  CustomTabNavigation
 //
 //  Created by Sprinthub on 14/10/2019.
 //  Copyright © 2019 Sprinthub Mobile. All rights reserved.
 //
+// Changed by Agha Saad Rehman
 
 import UIKit
 
-class CallsViewController: UIViewController {
+class FriendsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.view.backgroundColor = UIColor.white
+        // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor.orange
         let label = UILabel(frame: CGRect.zero)
-        label.text = "Calls View Controller"
+        label.text = "Friends View Controller"
         label.font = UIFont.systemFont(ofSize: 16)
+        label.textColor = .white
         label.translatesAutoresizingMaskIntoConstraints = false
         label.clipsToBounds = true
         label.sizeToFit()

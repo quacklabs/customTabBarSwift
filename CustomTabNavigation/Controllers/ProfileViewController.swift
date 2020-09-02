@@ -1,23 +1,25 @@
 //
-//  ContactsViewController.swift
+//  InboxViewController.swift
 //  CustomTabNavigation
 //
 //  Created by Sprinthub on 14/10/2019.
 //  Copyright © 2019 Sprinthub Mobile. All rights reserved.
 //
+// Changed by Agha Saad Rehman
 
 import UIKit
 
-class ContactsViewController: UIViewController {
+class ProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.view.backgroundColor = UIColor.white
+        self.view.backgroundColor = UIColor.magenta
         let label = UILabel(frame: CGRect.zero)
-        label.text = "Contacts View Controller"
+        label.text = "Profile View Controller"
         label.font = UIFont.systemFont(ofSize: 16)
+        label.textColor = .white
         label.translatesAutoresizingMaskIntoConstraints = false
         label.clipsToBounds = true
         label.sizeToFit()

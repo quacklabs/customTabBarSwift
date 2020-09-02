@@ -8,23 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		2524AD2B234E3169002ADE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2524AD2A234E3169002ADE9B /* AppDelegate.swift */; };
-		2524AD2D234E3169002ADE9B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2524AD2C234E3169002ADE9B /* HomeViewController.swift */; };
 		2524AD30234E3169002ADE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2524AD2E234E3169002ADE9B /* Main.storyboard */; };
 		2524AD32234E316F002ADE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2524AD31234E316F002ADE9B /* Assets.xcassets */; };
 		2524AD35234E316F002ADE9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2524AD33234E316F002ADE9B /* LaunchScreen.storyboard */; };
 		2524AD3E234E342F002ADE9B /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2524AD3D234E342F002ADE9B /* TabItem.swift */; };
 		2557E17C23547FD300B6A1B7 /* NavigationMenuBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2557E17B23547FD300B6A1B7 /* NavigationMenuBaseController.swift */; };
 		2557E17E2354842A00B6A1B7 /* TabNavigationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2557E17D2354842A00B6A1B7 /* TabNavigationMenu.swift */; };
-		2557E181235487B900B6A1B7 /* CallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2557E180235487B900B6A1B7 /* CallsViewController.swift */; };
-		2557E183235487CE00B6A1B7 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2557E182235487CE00B6A1B7 /* ContactsViewController.swift */; };
-		2557E1852354880C00B6A1B7 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2557E1842354880C00B6A1B7 /* PhotosViewController.swift */; };
-		2557E1872354883200B6A1B7 /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2557E1862354883200B6A1B7 /* InboxViewController.swift */; };
+		2557E181235487B900B6A1B7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2557E180235487B900B6A1B7 /* HomeViewController.swift */; };
+		2557E183235487CE00B6A1B7 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2557E182235487CE00B6A1B7 /* CalenderViewController.swift */; };
+		2557E1852354880C00B6A1B7 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2557E1842354880C00B6A1B7 /* FriendsViewController.swift */; };
+		2557E1872354883200B6A1B7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2557E1862354883200B6A1B7 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2524AD27234E3169002ADE9B /* CustomTabNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2524AD2A234E3169002ADE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2524AD2C234E3169002ADE9B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2524AD2F234E3169002ADE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2524AD31234E316F002ADE9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2524AD34234E316F002ADE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,10 +30,10 @@
 		2524AD3D234E342F002ADE9B /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
 		2557E17B23547FD300B6A1B7 /* NavigationMenuBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMenuBaseController.swift; sourceTree = "<group>"; };
 		2557E17D2354842A00B6A1B7 /* TabNavigationMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigationMenu.swift; sourceTree = "<group>"; };
-		2557E180235487B900B6A1B7 /* CallsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsViewController.swift; sourceTree = "<group>"; };
-		2557E182235487CE00B6A1B7 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
-		2557E1842354880C00B6A1B7 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
-		2557E1862354883200B6A1B7 /* InboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		2557E180235487B900B6A1B7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2557E182235487CE00B6A1B7 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		2557E1842354880C00B6A1B7 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		2557E1862354883200B6A1B7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +69,6 @@
 				2557E17F235487A600B6A1B7 /* Controllers */,
 				2524AD3C234E33B1002ADE9B /* Navigation Menu */,
 				2524AD2A234E3169002ADE9B /* AppDelegate.swift */,
-				2524AD2C234E3169002ADE9B /* HomeViewController.swift */,
 				2524AD2E234E3169002ADE9B /* Main.storyboard */,
 				2524AD31234E316F002ADE9B /* Assets.xcassets */,
 				2524AD33234E316F002ADE9B /* LaunchScreen.storyboard */,
@@ -93,10 +90,10 @@
 		2557E17F235487A600B6A1B7 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2557E180235487B900B6A1B7 /* CallsViewController.swift */,
-				2557E182235487CE00B6A1B7 /* ContactsViewController.swift */,
-				2557E1842354880C00B6A1B7 /* PhotosViewController.swift */,
-				2557E1862354883200B6A1B7 /* InboxViewController.swift */,
+				2557E180235487B900B6A1B7 /* HomeViewController.swift */,
+				2557E182235487CE00B6A1B7 /* CalenderViewController.swift */,
+				2557E1842354880C00B6A1B7 /* FriendsViewController.swift */,
+				2557E1862354883200B6A1B7 /* ProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -172,14 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2524AD2D234E3169002ADE9B /* HomeViewController.swift in Sources */,
-				2557E1852354880C00B6A1B7 /* PhotosViewController.swift in Sources */,
-				2557E183235487CE00B6A1B7 /* ContactsViewController.swift in Sources */,
+				2557E1852354880C00B6A1B7 /* FriendsViewController.swift in Sources */,
+				2557E183235487CE00B6A1B7 /* CalenderViewController.swift in Sources */,
 				2557E17C23547FD300B6A1B7 /* NavigationMenuBaseController.swift in Sources */,
-				2557E1872354883200B6A1B7 /* InboxViewController.swift in Sources */,
+				2557E1872354883200B6A1B7 /* ProfileViewController.swift in Sources */,
 				2524AD2B234E3169002ADE9B /* AppDelegate.swift in Sources */,
 				2524AD3E234E342F002ADE9B /* TabItem.swift in Sources */,
-				2557E181235487B900B6A1B7 /* CallsViewController.swift in Sources */,
+				2557E181235487B900B6A1B7 /* HomeViewController.swift in Sources */,
 				2557E17E2354842A00B6A1B7 /* TabNavigationMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
