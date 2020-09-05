@@ -1,23 +1,25 @@
 //
-//  PhotosViewController.swift
+//  CallsViewController.swift
 //  CustomTabNavigation
 //
 //  Created by Sprinthub on 14/10/2019.
 //  Copyright © 2019 Sprinthub Mobile. All rights reserved.
 //
 
+// Changed by Agha Saad Rehman
 import UIKit
 
-class PhotosViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.view.backgroundColor = UIColor.white
+        self.view.backgroundColor = UIColor.systemPink
         let label = UILabel(frame: CGRect.zero)
-        label.text = "Photo View Controller"
+        label.text = "Home View Controller"
         label.font = UIFont.systemFont(ofSize: 16)
+        label.textColor = .white
         label.translatesAutoresizingMaskIntoConstraints = false
         label.clipsToBounds = true
         label.sizeToFit()
